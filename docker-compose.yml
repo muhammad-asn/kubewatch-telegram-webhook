@@ -1,0 +1,7 @@
+services:
+  kubewatch-telegram-webhook:
+    image: kubewatch-telegram-webhook
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env

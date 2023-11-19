@@ -1,0 +1,22 @@
+namespace: ""
+rbac:
+  create: true
+slack:
+  enabled: false
+webhook:
+  enabled: true
+  url: "https://9e7c-2001-df0-9e00-00-1321-64-119.ngrok-free.app/webhook-telegram"
+  tlsskip: true
+resourcesToWatch:
+  deployment: true
+  replicationcontroller: false
+  replicaset: false
+  daemonset: true
+  services: true
+  pod: true
+  job: true
+  persistentvolume: true
+  namespace: true
+  secret: true
+  ingress: true
+  event: false
