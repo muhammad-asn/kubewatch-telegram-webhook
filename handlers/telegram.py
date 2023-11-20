@@ -22,7 +22,7 @@ class Telegram:
         try:
             if message.eventmeta.reason == "Created":
                 msg = f"""
-"✅ *Info: Resource Created* ✅"            
+✅ *Info: Resource Created* ✅            
 *Name:* {message.eventmeta.name}
 *Namespace:* {message.eventmeta.namespace}
 *Reason:* {message.eventmeta.reason}
